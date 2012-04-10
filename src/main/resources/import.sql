@@ -1,0 +1,2 @@
+-- You can use this file to load seed data into the database using SQL statements
+insert into Student (id, name, className, phonenumber, phonecarrier) values (0, 'John Smith', 'Biology', '2125551212', 'Verizon')

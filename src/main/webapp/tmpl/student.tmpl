@@ -1,0 +1,11 @@
+<script type="text/template" id="student-tmpl">
+<% _.each(students, function(student) { %>
+	<tr class="member">
+		<td><%=student.name%></td>
+		<td><%=student.phoneNumber%></td>
+        <td><%=student.phoneCarrier%></td>
+        <td><%=student.className%></td>
+        <td><a href="rest/students/delete/<%=student.id%>">Delete</a></td>
+	</tr>
+<% }); %>
+</script>
